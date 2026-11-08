@@ -1,0 +1,1 @@
+document.write(" Bu yazı js dosyasından alındı");

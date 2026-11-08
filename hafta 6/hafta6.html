@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var txt1="Tek mutluluğum";
+        var txt2="fernerbahçe";
+        var sayi1=100,sayi2=5;
+        var isim,soyisim;
+        var saat= new Date().getHours;
+        var tarih=new Date().getDay;
+        var günler=["pazartesi","salı","çarşamba","perşembe","cuma","cumartesi","pazar"];
+
+        confirm("sometext");
+
+        switch(tarih){
+            case(0):document.write("Bugün günlerden ");document.write(günler[0]);
+            case(1):document.write("Bugün günlerden ");document.write(günler[1]);
+            case(2):document.write("Bugün günlerden ");document.write(günler[2]);
+            case(3):document.write("Bugün günlerden ");document.write(günler[3]);
+            case(4):document.write("Bugün günlerden ");document.write(günler[4]);
+            case(5):document.write("Bugün günlerden ");document.write(günler[5]);
+            case(6):document.write("Bugün günlerden ");document.write(günler[6]);
+        }
+         
+        if(sayi1<sayi2)
+            document.write(sayi1+" SAYISI "+sayi2+" sayısından küçüktür");
+        else
+            document.write(sayi1+"SAYISI"+sayi2+"sayısından büyüktür");
+
+        document.write("<br> <br> <br>");
+        var x=5,y=6
+        if(saat<12){
+            document.write("Günaydın");document.write("<br>");}
+        else if(saat>12&&time<15){
+            document.write("Tünaydın");document.write("<br>");}
+        else if(saat>=15){
+            document.write("İyi günler");document.write("<br>");}
+        document.write("<br> <br> <br>");
+        x=5+5;
+        document.write("<br>");
+        document.write(x);
+        x=5+"5";
+        document.write("<br>");
+        document.write(x);
+        x="5"+"5";
+        document.write("<br>");
+        document.write(x);
+
+        document.write("<br>");document.write("<br>");document.write("<br>");
+        toplam_sonuc=sayi1+sayi2,carpimsonuc=sayi1*sayi2,mod_sonuc=sayi1%sayi2;
+        document.write("<br>"+"Sayıların toplamı "+toplam_sonuc);
+        document.write("<br>"+"Sayıların Çarpımı"+carpimsonuc);
+        document.write("<br>"+"Mod almanın sonucu:"+mod_sonuc);
+
+        document.write("<br>");document.write("<br>");document.write("<br>");
+        isim="ismail";
+        soyisim="kartal";
+        document.write("<br>");
+        document.write("binim ismim"+" "+isim);
+        document.write("<br>");
+        document.write(soyisim);
+        document.write("<br>"+txt1+" "+txt2);
+
+
+    </script>
+    <script>
+        function Uyarı(){
+            alert("Bu bir uyarı mesajıdır");
+        }
+
+    </script>
+    <form>
+        <input type="button" value="Uyarı Ver" onclick="Uyarı()">
+    </form>
+    <br>
+<script type="text/javascript">
+    document.write("Merhaba İlk JVS kodum ");
+
+</script>
+<br>
+<script src="deneme.js">
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>
